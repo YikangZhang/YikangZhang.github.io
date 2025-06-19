@@ -22,7 +22,7 @@ repository               : "yikangzhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Zhang_Y.png"
+  avatar           : "Zhang_Y.jpg"
   name             : "Yikang Zhang"
   pronouns         : "he/him"  
   bio              : "Research at the intersection of psychology, crime, and law"
