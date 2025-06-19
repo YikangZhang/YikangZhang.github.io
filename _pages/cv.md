@@ -30,7 +30,7 @@ Work experience
 * March 2020: Research Assistant
   * NYU Shanghai
   * Duties included: Data analysis & publishing peer-reviewed papers
-  * Supervisor: Professor Git
+  * Supervisor: Pekka Santtila
   
 Expertise
 ======
