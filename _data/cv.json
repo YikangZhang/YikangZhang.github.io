@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yikang Zhang",
+    "email": "y.zhang@csl.mpg.de",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://yikangzhang.github.io",
+    "summary": "Postdoctoral Researcher at Max Planck Institute for the Study of Crime, Security and Law",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "Günterstalstr. 73": "",
+      "postcode": "79100",
+      "city": "Freiburg i. Br.",
+      "countryCode": "Germany",
+      "region": "Europe"
     },
     "profiles": [
       {
