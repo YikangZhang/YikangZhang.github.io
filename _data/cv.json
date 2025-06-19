@@ -7,7 +7,7 @@
     "summary": "Postdoctoral Researcher at Max Planck Institute for the Study of Crime, Security and Law",
     "location": {
       "Günterstalstr. 73": "",
-      "postcode": "79100",
+      "postalCode": "79100",
       "city": "Freiburg i. Br.",
       "countryCode": "Germany",
       "region": "Europe"
@@ -15,47 +15,42 @@
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Yikang Zhang",
+        "url": "https://scholar.google.com/citations?user=M9gnuAgAAAAJ&hl=en&oi=ao"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Yikang Zhang",
+        "url": "https://orcid.org/0000-0001-5173-562X"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Maastricht University",
+      "area": "Ph.D in Legal Psychology",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2021.09",
+      "endDate": "2024.06",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "East China Normal University",
+      "area": "M.Ed. in Applied Psychology",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2018.09",
+      "endDate": "2021.06",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "Southeast University",
+      "area": "B.BA. in Accounting",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2014.09",
+      "endDate": "2018.06",
       "gpa": null,
       "courses": []
     }
