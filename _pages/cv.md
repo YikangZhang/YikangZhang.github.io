@@ -1,4 +1,4 @@
----
+l ---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Legal Psychology, Maastricht University, 2024
+* M.Ed. in Applied Psychology, East China Normal University, 2021
+* B.B.A. in Accounting, Southeast University, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* June 2024: Postdoc Researcher
+  * Max Planck Institute for the Study of Crime, Security and Law
+  * Duties includes: Project lead; co-supervise PhD students; coordinate research assistants
+  * Supervisor: Jean-Louis van Gelder
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* September 2021: PhD Researcher
+  * Maastricht University
+  * Duties included: Design & conduct experiment, publish, supervise MSc theses
+  * Supervisors: Marko Jelicic, Henry Otgaar, Jianqin Wang
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
+* March 2020: Research Assistant
+  * NYU Shanghai
+  * Duties included: Data analysis & publishing peer-reviewed papers
   * Supervisor: Professor Git
   
-Skills
+Expertise
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Advanced statistics
+* Applied memory research
+* Peer effects & delinquency
+* Evolutionary Psychology
 
 Publications
 ======
