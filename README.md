@@ -4,3 +4,5 @@ Personal academic website of Yikang Zhang (Max Planck Institute for the Study of
 Static HTML; served with GitHub Pages at https://yikangzhang.github.io.
 
 Fonts: Manrope and Bricolage Grotesque, SIL Open Font License (see the LICENSE files).
+
+The pages are generated from a design canvas with a build script; edit the source there, not these files.
