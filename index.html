@@ -13,6 +13,11 @@
 <style>
 body{margin:0;background:#FFFFFF}
 a{color:#2F6B45;text-decoration:none}a:hover{color:#1B4430;text-decoration:underline}
+.more>summary{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid #BFCAB9;border-radius:24px;background:#FFFFFF;color:#11201A;font-weight:700;font-size:15px;cursor:pointer;list-style:none}
+.more>summary::-webkit-details-marker{display:none}
+.more>summary::after{content:"+";font-size:20px;line-height:1;color:#3E7B4F}
+.more[open]>summary::after{content:"\2212"}
+.more>summary:hover{border-color:#3E7B4F}
 </style>
 <style>
 html{scroll-behavior:smooth}
@@ -134,51 +139,52 @@ html{scroll-behavior:smooth}
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 24px">
 
 <article style="background: #FFFFFF; color: #11201A; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column">
-<div style="position: relative; height: 150px; background: #1B4430; overflow: hidden">
+<div style="position: relative; height: 88px; background: #1B4430; overflow: hidden">
 <svg aria-hidden="true" viewBox="0 0 300 150" preserveAspectRatio="xMidYMid slice" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%"><defs><path id="lfC1" d="M0 0C14 -7 32 -7 46 0C32 5 14 5 0 0Z"></path></defs><g stroke="#2F6B45"><line x1="190" y1="-5" x2="190" y2="160" stroke-width="14" stroke-dasharray="70 4"></line><line x1="240" y1="-5" x2="240" y2="160" stroke-width="10" stroke-dasharray="60 4" stroke-dashoffset="30"></line></g><g stroke="#5E9E6E"><line x1="270" y1="-5" x2="270" y2="160" stroke-width="18" stroke-dasharray="80 5" stroke-dashoffset="20"></line></g><g fill="#7FB98C"><use href="#lfC1" transform="translate(196 60) rotate(-30)"></use><use href="#lfC1" transform="translate(262 100) rotate(-150)"></use><use href="#lfC1" transform="translate(278 40) rotate(-20) scale(0.8)"></use></g></svg>
 </div>
 <div style="padding: 28px; display: flex; flex-direction: column; gap: 14px; flex: 1">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C8412B">Main program</p>
 <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Partners in Crime</h3>
-<p style="margin: 0; font-size: 16px; color: #4B5A52">Why do young people break rules together? Co-led with Jean-Louis van Gelder at MPI-CSL.</p>
+<p style="margin: 0; font-size: 16px; color: #4B5A52">Why do young people break rules together? With Jean-Louis van Gelder.</p>
 <ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.45">
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#sardegna" style="color: #11201A">Sardegna: is it the company or the nudge?</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#chain" style="color: #11201A">Choosing company, catching habits</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#favor" style="color: #11201A">Forever in your debt: favors and loyalty</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#friends" style="color: #11201A">Which friends can talk us into it?</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#rosar" style="color: #11201A">Choosing and following the wrong crowd (PhD project, Linda Rosar)</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#hetche" style="color: #11201A">When love encourages rule-breaking (PhD project, Sophie Hetche)</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#sardegna" style="color: #11201A">Company or nudge? (Sardegna)</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#chain" style="color: #11201A">Choosing company</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#favor" style="color: #11201A">Favors and loyalty</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#friends" style="color: #11201A">Which friends talk us into it</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#rosar" style="color: #11201A">PhD project: following the wrong crowd</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#hetche" style="color: #11201A">PhD project: love and rule-breaking</a></li>
 </ul>
 </div>
 </article>
 
 <article style="background: #FFFFFF; color: #11201A; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column">
-<div style="position: relative; height: 150px; background: #2F6B45; overflow: hidden">
+<div style="position: relative; height: 88px; background: #2F6B45; overflow: hidden">
 <svg aria-hidden="true" viewBox="0 0 300 150" preserveAspectRatio="xMidYMid slice" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%"><defs><path id="lfC2" d="M0 0C14 -7 32 -7 46 0C32 5 14 5 0 0Z"></path></defs><g stroke="#3E7B4F"><line x1="170" y1="-5" x2="170" y2="160" stroke-width="12" stroke-dasharray="55 4" stroke-dashoffset="10"></line><line x1="285" y1="-5" x2="285" y2="160" stroke-width="12" stroke-dasharray="65 4"></line></g><g stroke="#7FB98C"><line x1="228" y1="-5" x2="228" y2="160" stroke-width="20" stroke-dasharray="90 5" stroke-dashoffset="45"></line></g><g fill="#A8D5B5"><use href="#lfC2" transform="translate(236 46) rotate(-35)"></use><use href="#lfC2" transform="translate(220 52) rotate(-150)"></use><use href="#lfC2" transform="translate(236 120) rotate(-10) scale(0.8)"></use></g></svg>
 </div>
 <div style="padding: 28px; display: flex; flex-direction: column; gap: 14px; flex: 1">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C8412B">Main program · Participants wanted</p>
 <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">School investigations</h3>
-<p style="margin: 0; font-size: 16px; color: #4B5A52">How do schools find out what happened when a student is accused, and decide what to do?</p>
+<p style="margin: 0; font-size: 16px; color: #4B5A52">How do schools establish what happened, and decide what to do?</p>
 <ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.45">
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#vo" style="color: #11201A">How Dutch secondary schools investigate misconduct: a staff survey</a></li>
-<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#court" style="color: #11201A">When school matters reach the courtroom: a study of Dutch court judgments</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#vo" style="color: #11201A">School staff survey</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #A8D5B5"><a href="projects.html#court" style="color: #11201A">School information in court</a></li>
 </ul>
 </div>
 </article>
 
 <article style="background: #FFFFFF; color: #11201A; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column">
-<div style="position: relative; height: 150px; background: #C8412B; overflow: hidden">
+<div style="position: relative; height: 88px; background: #C8412B; overflow: hidden">
 <svg aria-hidden="true" viewBox="0 0 300 150" preserveAspectRatio="xMidYMid slice" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%"><defs><path id="lfC3" d="M0 0C14 -7 32 -7 46 0C32 5 14 5 0 0Z"></path></defs><g stroke="#A9301C"><line x1="200" y1="-5" x2="200" y2="160" stroke-width="14" stroke-dasharray="62 4"></line><line x1="262" y1="-5" x2="262" y2="160" stroke-width="16" stroke-dasharray="74 4" stroke-dashoffset="28"></line></g><g fill="#E0644C"><use href="#lfC3" transform="translate(207 40) rotate(-30)"></use><use href="#lfC3" transform="translate(255 98) rotate(-150)"></use><use href="#lfC3" transform="translate(270 66) rotate(-15) scale(0.8)"></use></g></svg>
 </div>
 <div style="padding: 28px; display: flex; flex-direction: column; gap: 14px; flex: 1">
 <p style="margin: 0; font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C8412B">With colleagues</p>
 <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em">Collaborative projects</h3>
-<p style="margin: 0; font-size: 16px; color: #4B5A52">Joint projects that take my two core questions into new settings, in three themes.</p>
+<p style="margin: 0; font-size: 16px; color: #4B5A52">My two core questions in new settings, in three themes.</p>
 <ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.45">
-<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><strong>Memory conflict and testimony:</strong> gaslighting in relationships, alcohol and eyewitness memory</li>
-<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><strong>Social influence and rule-breaking:</strong> unpunished unfairness, compliant AI, image-based sexual abuse</li>
-<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><strong>Shared evidence:</strong> open science in criminology, a <a href="https://opheliayzhang.wixsite.com/asianregistry">registry of wrongful convictions in Asia</a></li></ul>
+<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><a href="projects.html#gaslit" style="color: #11201A"><strong>Memory and testimony:</strong> gaslighting, alcohol and witnesses</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><a href="projects.html#nobaddeed" style="color: #11201A"><strong>Influence and rule-breaking:</strong> unpunished unfairness, compliant AI, image-based abuse</a></li>
+<li style="padding-left: 18px; border-left: 3px solid #F2B8AA"><a href="projects.html#os" style="color: #11201A"><strong>Shared evidence:</strong> open science audit</a>, <a href="https://opheliayzhang.wixsite.com/asianregistry">Asian wrongful-convictions registry</a></li>
+</ul>
 </div>
 </article>
 
@@ -195,7 +201,19 @@ html{scroll-behavior:smooth}
 <p style="margin: 0; font-size: 15px; color: #4B5A52">Also on <a href="https://scholar.google.com/citations?hl=en&amp;user=M9gnuAgAAAAJ" style="font-weight: 700">Google Scholar</a> and <a href="https://orcid.org/0000-0001-5173-562X" style="font-weight: 700">ORCID</a></p>
 </div>
 
-<h3 style="margin: 0 0 18px; padding-top: 24px; border-top: 2px solid #11201A; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">As lead author</h3>
+<h3 style="margin: 0 0 18px; padding-top: 24px; border-top: 2px solid #11201A; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Selected</h3>
+<ul style="margin: 0 0 32px; padding: 0 0 0 24px; list-style: disc; display: flex; flex-direction: column; gap: 14px; font-size: 16px">
+<li><strong>Zhang, Y.</strong>, Otgaar, H., Nash, R. A., &amp; Li, C. (2025). The effects of false feedback on state memory distrust towards commission and omission and recognition memory errors. <em>Royal Society Open Science, 12</em>(9), 251045. <a href="https://doi.org/10.1098/rsos.251045" style="font-weight: 700">DOI</a></li>
+<li><strong>Zhang, Y.</strong>, Otgaar, H., Riesthuis, P., Wang, J., &amp; Jelicic, M. (2024). The rise and fall of autobiographical beliefs: The effect of external feedback on memory in the context of the prisoner's dilemma. <em>Psychology of Consciousness: Theory, Research, and Practice</em>. <a href="https://doi.org/10.1037/cns0000391" style="font-weight: 700">DOI</a></li>
+<li><strong>Zhang, Y.</strong>, Nash, R. A., &amp; Otgaar, H. (2023). Preference for cheap-and-easy memory verification strategies is strongest among people with high memory distrust. <em>Memory, 31</em>(7), 978–988. <a href="https://doi.org/10.1080/09658211.2023.2216910" style="font-weight: 700">DOI</a></li>
+<li><strong>Zhang, Y.</strong>, Segal, A., Pompedda, F., Haginoya, S., &amp; Santtila, P. (2022). Confirmation bias in simulated CSA interviews: How abuse assumption influences interviewing and decision-making processes? <em>Legal and Criminological Psychology, 27</em>(3), 314–328. <a href="https://doi.org/10.1111/lcrp.12213" style="font-weight: 700">DOI</a></li>
+<li><strong>Zhang, Y.</strong>, Otgaar, H., Zhang, Y., Sumampouw, N., Isa, T., Wang, J., Nishi, Y., &amp; Ko, Y.-C. (2026). Towards an Asian Registry of Wrongful Convictions. <em>Forensic Science International: Synergy</em>.</li>
+<li>Otgaar, H., <strong>Zhang, Y.</strong>, Li, C., &amp; Wang, J. (2025). Beliefs in repressed memory and dissociative amnesia from a cross-cultural lens. <em>Journal of Criminal Psychology, 15</em>(2), 133–146. <a href="https://doi.org/10.1108/JCP-06-2023-0037" style="font-weight: 700">DOI</a></li>
+</ul>
+
+<details class="more" style="margin: 0 0 48px">
+<summary>All peer-reviewed publications</summary>
+<h3 style="margin: 28px 0 18px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700">As lead author</h3>
 <ul style="margin: 0 0 48px; padding: 0 0 0 24px; list-style: disc; display: flex; flex-direction: column; gap: 14px; font-size: 16px">
 <li><strong>Zhang, Y.</strong>, Otgaar, H., Nash, R. A., &amp; Li, C. (2025). The effects of false feedback on state memory distrust towards commission and omission and recognition memory errors. <em>Royal Society Open Science, 12</em>(9), 251045. <a href="https://doi.org/10.1098/rsos.251045" style="font-weight: 700">DOI</a></li>
 <li><strong>Zhang, Y.</strong>, Battista, F., Thissen, D., Otgaar, H., Wang, J., &amp; Jelicic, M. (2025). Examining the associations between nonbelieved memories and memory distrust, self-esteem, and rumination. <em>Psychology of Consciousness: Theory, Research, and Practice, 12</em>(3), 339–354. <a href="https://doi.org/10.1037/cns0000344" style="font-weight: 700">DOI</a></li>
@@ -213,11 +231,10 @@ html{scroll-behavior:smooth}
 <li><strong>Zhang, Y.</strong>, Sun, Q., &amp; Liu, Y. (2022). Social capital mediates the effect of socio-economic status on prosocial practices: Evidence from the CGSS 2012 survey. <em>Journal of Community &amp; Applied Social Psychology, 32</em>(2), 198–211. <a href="https://doi.org/10.1002/casp.2565" style="font-weight: 700">DOI</a></li>
 </ul>
 
-<h3 style="margin: 0 0 18px; padding-top: 24px; border-top: 2px solid #11201A; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">With collaborators</h3>
+<h3 style="margin: 0 0 18px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700">With collaborators</h3>
 <ul style="margin: 0 0 48px; padding: 0 0 0 24px; list-style: disc; display: flex; flex-direction: column; gap: 14px; font-size: 16px">
 <li><strong>Zhang, Y.</strong>, Otgaar, H., Zhang, Y., Sumampouw, N., Isa, T., Wang, J., Nishi, Y., &amp; Ko, Y.-C. (2026). Towards an Asian Registry of Wrongful Convictions. <em>Forensic Science International: Synergy</em>.</li>
 <li>Wen, G., Niu, C., Chen, J., <strong>Zhang, Y.</strong>, &amp; Santtila, P. (2026). Effects of ginger supplementation on sexual behavior and sexual functioning: Evidence from cross-sectional, experimental, and longitudinal studies. <em>International Journal of Sexual Health</em>, 1–21. <a href="https://doi.org/10.1080/19317611.2026.2666325" style="font-weight: 700">DOI</a></li>
-<li>van Gelder, J.-L., <strong>Zhang, Y.</strong>, &amp; Jacobsen, W. (2025). Partners in crime: A virtual reality paradigm to experimentally study peer influences on delinquency. <em>CrimRxiv</em> (preprint). <a href="https://doi.org/10.21428/cb6ab371.526e890a" style="font-weight: 700">DOI</a></li>
 <li>Battista, F., <strong>Zhang, Y.</strong>, Zhang, Y., Mangiulli, I., De Beuf, T. L., Moldoveanu, M. G., &amp; Otgaar, H. (2025). A systematic review and a meta-analysis on the relationship between intentional forgetting and false memories. <em>Journal of Cognitive Psychology</em>, 1–19. <a href="https://doi.org/10.1080/20445911.2025.2601687" style="font-weight: 700">DOI</a></li>
 <li>Perez, C. O., &amp; <strong>Zhang, Y.</strong> (2025). A systematic review of the literature on bilingual eyewitness memory. <em>Investigative Interviewing: Research &amp; Practice, 15</em>(1).</li>
 <li>van Gelder, J.-L., Mertens, E., Nagin, D., Siezenga, A., Gerstner, D., Webb, M., … <strong>Zhang, Y.</strong>, … &amp; Jacobsen, W. (2025). Virtual reality: What is it and should criminologists pay attention? <em>The Criminologist, 51</em>(4), 14–18.</li>
@@ -234,9 +251,10 @@ html{scroll-behavior:smooth}
 <li><strong>Zhang, Y.</strong>, Li, S., Zhang, Y., Haginoya, S., &amp; Santtila, P. (2023). Effects of combining feedback and hypothesis-testing on the quality of simulated child sexual abuse interviews with avatars among Chinese university students. <em>PLOS ONE, 18</em>(4), e0285114. <a href="https://doi.org/10.1371/journal.pone.0285114" style="font-weight: 700">DOI</a></li>
 <li>Sun, Q., Molenmaker, W. E., <strong>Zhang, Y.</strong>, Liu, Y., &amp; van Dijk, E. (2022). Procedural fairness facilitates cooperative behavior by enhancing cooperative expectations. <em>Social and Personality Psychology Compass, 16</em>(12), e12711. <a href="https://doi.org/10.1111/spc3.12711" style="font-weight: 700">DOI</a></li>
 </ul>
+</details>
 
 <h3 style="margin: 0 0 18px; padding-top: 24px; border-top: 2px solid #11201A; font-family: 'Bricolage Grotesque', sans-serif; font-size: 24px; font-weight: 700">Preprints and work under review</h3>
-<p style="margin: 0; font-size: 16px; color: #4B5A52; max-width: 820px">Sixteen further manuscripts are under review or in preparation, including <strong style="color: #11201A">Zhang &amp; van Golde, Gasliteracy</strong> (<a href="https://doi.org/10.31234/osf.io/65ahz_v1" style="font-weight: 700">PsyArXiv preprint</a>). Most are introduced on the <a href="projects.html" style="font-weight: 700">Programs &amp; projects</a> page.</p>
+<p style="margin: 0; font-size: 16px; color: #4B5A52; max-width: 820px">Further manuscripts are under review or in preparation, including <strong style="color: #11201A">Zhang &amp; van Golde, Gasliteracy</strong> (<a href="https://doi.org/10.31234/osf.io/65ahz_v1" style="font-weight: 700">PsyArXiv preprint</a>) and <strong style="color: #11201A">van Gelder, Zhang &amp; Jacobsen, Partners in crime: A virtual reality paradigm</strong> (<a href="https://doi.org/10.21428/cb6ab371.526e890a" style="font-weight: 700">CrimRxiv preprint</a>). Most are introduced on the <a href="projects.html" style="font-weight: 700">Programs &amp; projects</a> page.</p>
 </section>
 
 <section id="cv" style="background: #EEF4EF">
@@ -284,6 +302,10 @@ html{scroll-behavior:smooth}
 <li>Lecturer, Introduction to Survey Research, University College Freiburg (winter 2026)</li>
 </ul>
 </div>
+</div>
+<details class="more" style="margin: 48px 0 0">
+<summary>Grants, editorial work and service</summary>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 48px 72px; margin-top: 32px">
 <div>
 <h3 style="margin: 0 0 20px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 22px; font-weight: 700">Grants and awards</h3>
 <ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 10px; font-size: 16px">
@@ -312,6 +334,7 @@ html{scroll-behavior:smooth}
 </ul>
 </div>
 </div>
+</details>
 </div>
 </section>
 
