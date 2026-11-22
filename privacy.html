@@ -13,6 +13,11 @@
 <style>
 body{margin:0;background:#FFFFFF}
 a{color:#2F6B45;text-decoration:none}a:hover{color:#1B4430;text-decoration:underline}
+.more>summary{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1.5px solid #BFCAB9;border-radius:24px;background:#FFFFFF;color:#11201A;font-weight:700;font-size:15px;cursor:pointer;list-style:none}
+.more>summary::-webkit-details-marker{display:none}
+.more>summary::after{content:"+";font-size:20px;line-height:1;color:#3E7B4F}
+.more[open]>summary::after{content:"\2212"}
+.more>summary:hover{border-color:#3E7B4F}
 </style>
 <style>
 body{font-family:Manrope,system-ui,sans-serif}
@@ -43,7 +48,7 @@ html{scroll-behavior:smooth}
 <h1>Privacy notice</h1>
 <p class="lead">Information under Articles 13 and 14 of the EU General Data Protection Regulation (GDPR). Last updated November 2026.</p>
 
-<h2>In short</h2>
+<h2>Summary</h2>
 <p>This website sets no cookies, uses no analytics or tracking, and loads nothing from third parties: fonts and images are served from the site itself. The only personal data involved are the server logs kept by the hosting provider and any email you choose to send me.</p>
 
 <h2>Who is responsible</h2>
